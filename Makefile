@@ -26,3 +26,11 @@ clean:
 # Phony targets
 .PHONY: all clean
 
+# Makefile for Final_project_6
+
+.PHONY: install
+
+install:
+	Rscript -e "if (!requireNamespace('renv', quietly = TRUE)) install.packages('renv')"
+	Rscript -e "renv::restore()"
+

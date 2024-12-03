@@ -50,3 +50,21 @@ To run this project, ensure the following tools and libraries are installed:
 Install the packages using the following command in R:
 ```R
 install.packages(c("ggplot2", "dplyr", "here", "rmarkdown", "knitr"))
+
+# Final_project_6
+
+## How to Synchronize the R Package Environment
+
+This project uses the `renv` package to manage its R package dependencies. To ensure you have the correct package versions, follow these steps:
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/rocinante0v0/Final_project_6.git
+   cd Final_project_6
+Restore the R package environment:
+2. make install
+This will:
+
+Install the renv package if it is not already installed.
+Restore all project dependencies based on the renv.lock file.
+Open the project in R and start your analysis.
